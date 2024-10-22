@@ -1,4 +1,4 @@
-# bunup
+# UPGRADE para Bun en macOS/Linux/WSL o Windows (PowerShell)
 
 To install dependencies:
 

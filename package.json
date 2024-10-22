@@ -5,8 +5,7 @@
     "scripts": {
         "compiler": "bun build ./index.ts --compile --outfile bun-upgrade",
         "run-mac-linux-wsl": "./bun-upgrade",
-        "run-win": "./bun-upgrade.exe",
-        "start": "node --loader ts-node/esm.mjs index.ts"
+        "run-win": "./bun-upgrade.exe"
     },
     "devDependencies": {
         "@types/bun": "latest"
