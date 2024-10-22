@@ -177,3 +177,4 @@ dist
 # Archivo ejecutable de la app
 bun-upgrade
 bun-upgrade.exe
+bun.lockb
