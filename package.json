@@ -1,0 +1,17 @@
+{
+    "name": "bunup",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "compiler": "bun build ./index.ts --compile --outfile bun-upgrade",
+        "run-mac-linux-wsl": "./bun-upgrade",
+        "run-win": "./bun-upgrade.exe",
+        "start": "node --loader ts-node/esm.mjs index.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
