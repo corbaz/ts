@@ -1,11 +1,11 @@
 {
-    "name": "bunup",
+    "name": "bun-upgrade",
     "module": "index.ts",
     "type": "module",
     "scripts": {
-        "compiler": "bun build ./index.ts --compile --outfile bun-upgrade",
-        "run-mac-linux-wsl": "./bun-upgrade",
-        "run-win": "./bun-upgrade.exe"
+        "compiler": "bun build ./index.ts --compile --outfile build/bun-upgrade",
+        "run-mac-linux-wsl": "./build/bun-upgrade",
+        "run-win": "./build/bun-upgrade.exe"
     },
     "devDependencies": {
         "@types/bun": "latest"
